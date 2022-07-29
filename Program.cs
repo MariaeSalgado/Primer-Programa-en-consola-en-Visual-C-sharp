@@ -13,20 +13,20 @@ namespace Primer_Programa_en_consola_en_Visual_C_sharp
 
 
 
-            double num1 = 0; double num2 = 0;
+            int num1 = 0; int num2 = 0;
 
             Console.WriteLine("Calculadora - Consola C#\r");
 
             Console.WriteLine("------------------------\n");
 
             Console.WriteLine("Digite el primer numero, y presione enter");
-            num1 = Convert.ToDouble(Console.ReadLine());
+            num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Digite el segundo numero, y presione enter");
-            num2 = Convert.ToDouble(Console.ReadLine());
+            num2 = Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine("¿Que quieres hacer?");
+            Console.WriteLine("Que quieres hacer?");
             Console.WriteLine("\ts - Sumar");
             Console.WriteLine("\tr - Restar");
             Console.WriteLine("\tm - Multiplicar");
